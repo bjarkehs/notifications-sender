@@ -1,0 +1,19 @@
+# Firebase Cloud Messaging (FCM) Device Tokens
+#
+# Add one device token per line
+# Lines starting with # are ignored
+#
+# To get a device token:
+# 1. Implement FCM in your mobile app
+# 2. Call the appropriate method to retrieve the token:
+#    - iOS: Messaging.messaging().token
+#    - Android: FirebaseMessaging.getInstance().token
+#    - Web: getToken(messaging)
+#
+# Example tokens (replace with your actual tokens):
+example-device-token-1:APA91bEXAMPLE_TOKEN_REPLACE_WITH_ACTUAL_TOKEN_FROM_YOUR_APP
+example-device-token-2:APA91bANOTHER_EXAMPLE_TOKEN_REPLACE_WITH_REAL_TOKEN
+# example-device-token-3:APA91bCOMMENTED_OUT_TOKEN_EXAMPLE
+
+# Note: Real FCM tokens are typically 150+ characters long and contain
+# a mix of letters, numbers, underscores, and hyphens
