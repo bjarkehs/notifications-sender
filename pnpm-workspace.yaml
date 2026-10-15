@@ -1,0 +1,5 @@
+allowBuilds:
+  # Writes Firebase web-app autoinit defaults; unused by firebase-admin.
+  '@firebase/util': false
+  # Only warns about version-scheme mismatches.
+  protobufjs: false

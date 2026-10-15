@@ -4,10 +4,10 @@ Send push notifications to multiple devices using Firebase Cloud Messaging.
 
 ## Setup
 
-1. Install: `npm install`
+1. Install: `pnpm install`
 2. Add Firebase service account key as `serviceAccountKey.json` (get from Firebase Console → Project Settings → Service Accounts)
 3. Copy `deviceIds.txt.example` to `deviceIds.txt` and add FCM tokens (one per line)
-4. Run: `npm start`
+4. Run: `pnpm start`
 
 ## Troubleshooting
 
